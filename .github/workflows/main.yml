@@ -17,4 +17,4 @@ jobs:
           server: ${{ secrets.server }}
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: ${{ secrets.path_directory }}
+          server-dir: ${{ secrets.main_path_directory }}
